@@ -1,0 +1,31 @@
+html,
+body {
+    font-family: map-get($fonts, primary); color: map-get($colors, content); font-size: $content-size; font-weight: normal; position: relative;
+    -webkit-appearance: none; -webkit-font-smoothing: antialiased; height:100%;
+}
+a {
+    color: map-get($colors, primary); 
+    &:hover,&:focus{
+        color: #f7985f; transition:all 0.3s ease; outline:none; text-decoration: none;
+    }
+    &:focus{
+        color: map-get($colors, primary); 
+        &:hover{
+            color: #f7985f;
+        }
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2; margin: 0 0 15px; font-weight: 500;
+}
+h1 {
+    margin: 0 0 25px; line-height: 1.2; font-size: 48px; color: #000; font-weight: 700;
+}
+h2 {margin: 0 0 25px; font-size: 26px;}
+h3 {font-size: 22px;}
+h4 {font-size: 18px;}
+h5 {font-size: 16px;}
+
+p{margin: 0 0 15px; line-height: 1.6;}
+
+textarea:focus, input:focus{outline: none;}

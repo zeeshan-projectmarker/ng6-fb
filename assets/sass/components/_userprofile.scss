@@ -1,0 +1,79 @@
+.userprofile{
+    padding:90px 0;
+    .profile-content{
+        justify-content: center; max-width: 960px; margin: 0 auto; flex-wrap: nowrap;
+        @media(max-width:1199px){
+            max-width: 100%;
+        }
+    }
+    .card-info{
+        max-width: 690px; flex-grow: 1; width:100%;
+        .paypal-img{margin-bottom: 15px;}
+        @media(min-width:1200px){
+            .form-main{
+                width: 64%;
+            }
+        }
+        .card-box{
+            margin-bottom: 60px;
+            &.payment-detail{
+                .btn-section{margin-top: 0; padding-top: 15px; border:none;}
+            }
+        }
+    }
+    
+    .profile-sidebar{
+        min-width: 255px; padding:0 15px;
+        .vertical-list > li{
+            margin-bottom: 15px;
+            > a{
+                display:block;color:#767676; font-size: 16px; line-height: 1.2;
+                &.active{font-size: 16px; font-weight: 500; color:#1b1b1b; text-decoration: none;}
+            }
+            &.logout-link > a{display: flex; padding-top: 35px; color:#1b1b1b; font-weight: 500;}
+        }
+    }
+    .btn-section{
+        border-top:1px solid #f0f2f7;
+        padding: 30px 0 0; margin-top: 30px; text-align: center;
+        .btn{min-width: 132px;}
+    }
+
+    .upload-section{
+        padding-bottom: 10px; 
+        .flex-wrapper{
+            align-items: center; justify-content: flex-start;
+            .upload-btn{
+                display: flex; align-items: center; cursor:pointer;position: relative; overflow: hidden;
+                img{margin-right:10px;}
+                input{position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0;}
+                input[type=file],input[type=file]::-webkit-file-upload-button { cursor: pointer; }
+            }
+        }
+        .image-holder{margin-right: 25px; width:80px; height:80px; object-fit: cover; border-radius: 100%; overflow: hidden; flex-shrink: 0;}
+    }
+
+    @media(max-width:767px){
+        padding-top: 30px; padding-bottom: 0px;
+        .profile-sidebar{display: none;}
+        .upload-section{
+            padding-bottom: 25px; 
+            .flex-wrapper{justify-content:  center;}
+        } 
+        .card-info .card-box{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.deactive-section{
+    padding: 0 0 30px; justify-content: center; text-align: center;
+    img{margin-right: 10px; display: inline-block;}
+    .flex-wrapper{
+        align-items: center; display: inline-block;
+        span{color: #929292; font-size: 16px; text-decoration: none; display: inline-block; vertical-align: middle;} 
+    }    
+    @media(min-width:768px){
+        padding-left: 255px;
+    }
+}

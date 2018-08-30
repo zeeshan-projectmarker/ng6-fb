@@ -1,0 +1,33 @@
+/*--tablet styles--*/
+@media(max-width:991px){
+    .sidebar{
+        position: fixed; top:0;left:-375px; max-width: 375px;background-color: #fff; height:100%; width:100%;
+        box-shadow: 0 6px 15px 0 rgba(4, 4, 4, 0.06); z-index: 10001; transition: all 0.3s ease; 
+        .close-btn{margin-top: 30px; margin-left: 30px; display: inline-block;}
+        .sidebar-menu{
+            padding: 70px 0 0 80px; 
+            .inline-list{
+                >li{
+                    margin-right: 0; margin-bottom: 25px;
+                    a{
+                        padding:10px 15px; display: inline-block;
+                        &:hover, &:focus{
+                            color: #f7985f; transition:all 0.3s ease;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    .show-navigation .sidebar{
+         left:0; transition: all 0.3s ease; 
+    }        
+}
+@media(max-width:767px){
+    .sidebar{
+         .sidebar-menu{
+            padding: 50px 0 0 40px; 
+        }
+    }
+}

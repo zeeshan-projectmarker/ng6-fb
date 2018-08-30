@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="222" height="210" viewBox="0 0 222 210">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#E6E6E6" stroke="#000" stroke-width="2" d="M22 110h142v99H22z"/>
+        <path fill="#E6E6E6" stroke="#000" d="M165.5 109.581v99.67l33-13.699v-97.84l-33 11.87z"/>
+        <path fill="#D4D4D4" d="M23 116.007L163 111v5.007L144.005 142H23z"/>
+        <path fill="#FFF" stroke="#000" d="M.994 92.57l20.959 16.872 36.095-11.459L37.91 78.58.994 92.57zM79.292 75.5l-21.153 23h140.802l21.893-23H79.292z"/>
+        <path stroke="#000" stroke-linecap="square" d="M58 98v11"/>
+        <path fill="#FFF" stroke="#000" d="M165.856 109.292l19.99 23.11 35.233-14.405-22.386-20.425-32.837 11.72zM70.5 15.5h68v103h-68z"/>
+        <path fill="#DCDCDC" d="M81 24h47v44H81z"/>
+        <path fill="#E1E8EE" d="M81 75h47v5H81zM81 85h47v5H81z"/>
+        <path fill="#000" d="M81 96h47v11H81z"/>
+        <text fill="#FFF" font-family="Roboto-Bold, Roboto" font-size="5" font-weight="bold">
+            <tspan x="100.137" y="95">ADD</tspan>
+        </text>
+        <g fill-rule="nonzero">
+            <path fill="#000" d="M69.5 0C57.626 0 48 9.626 48 21.5S57.626 43 69.5 43 91 33.374 91 21.5A21.5 21.5 0 0 0 69.5 0z"/>
+            <path fill="#FFF" d="M78.932 19.67H71.33v-7.602a1.83 1.83 0 0 0-3.66 0v7.602h-7.602a1.83 1.83 0 0 0 0 3.66h7.602v7.602a1.83 1.83 0 0 0 3.66 0V23.33h7.602a1.83 1.83 0 0 0 0-3.66z"/>
+        </g>
+        <path fill="#FFF" stroke="#000" d="M21.437 109.5l-19.416 25h142.967l19.004-25H21.437z"/>
+    </g>
+</svg>

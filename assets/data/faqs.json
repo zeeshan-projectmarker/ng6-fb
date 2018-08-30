@@ -1,0 +1,31 @@
+{
+    "status" : 200,
+    "message": "Successfully loaded faqs",
+    "data": [
+        {
+            "id": 1,
+            "title": "Faq 1",
+            "content": "Faq Content"
+        },
+        {
+            "id": 2,
+            "title": "Faq 2",
+            "content": "Faq Content"
+        },
+        {
+            "id": 3,
+            "title": "Faq 3",
+            "content": "Faq Content"
+        },
+        {
+            "id": 4,
+            "title": "Faq 4",
+            "content": "Faq Content"
+        },
+        {
+            "id": 5,
+            "title": "Faq 5",
+            "content": "Faq Content"
+        }
+    ]
+}

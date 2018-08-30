@@ -1,0 +1,145 @@
+/****** Fonts ******/
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueLight.eot');
+    src: url('../fonts/BebasNeueLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueLight.woff2') format('woff2'),
+        url('../fonts/BebasNeueLight.woff') format('woff'),
+        url('../fonts/BebasNeueLight.ttf') format('truetype'),
+        url('../fonts/BebasNeueLight.svg#BebasNeueLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueBook.eot');
+    src: url('../fonts/BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueBook.woff2') format('woff2'),
+        url('../fonts/BebasNeueBook.woff') format('woff'),
+        url('../fonts/BebasNeueBook.ttf') format('truetype'),
+        url('../fonts/BebasNeueBook.svg#BebasNeueBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+        url('../fonts/BebasNeueRegular.woff') format('woff'),
+        url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+        url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueBold.eot');
+    src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeueBold.woff2') format('woff2'),
+        url('../fonts/BebasNeueBold.woff') format('woff'),
+        url('../fonts/BebasNeueBold.ttf') format('truetype'),
+        url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Thin.eot');
+    src: url('../fonts/BebasNeue-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BebasNeue-Thin.woff2') format('woff2'),
+        url('../fonts/BebasNeue-Thin.woff') format('woff'),
+        url('../fonts/BebasNeue-Thin.ttf') format('truetype'),
+        url('../fonts/BebasNeue-Thin.svg#BebasNeue-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/*--Sailec Fonts--*/
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Bold.eot');
+    src: url('../fonts/Sailec-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sailec-Bold.woff2') format('woff2'),
+        url('../fonts/Sailec-Bold.woff') format('woff'),
+        url('../fonts/Sailec-Bold.ttf') format('truetype'),
+        url('../fonts/Sailec-Bold.svg#Sailec-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Light.eot');
+    src: url('../fonts/Sailec-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sailec-Light.woff2') format('woff2'),
+        url('../fonts/Sailec-Light.woff') format('woff'),
+        url('../fonts/Sailec-Light.ttf') format('truetype'),
+        url('../fonts/Sailec-Light.svg#Sailec-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Medium.eot');
+    src: url('../fonts/Sailec-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sailec-Medium.woff2') format('woff2'),
+        url('../fonts/Sailec-Medium.woff') format('woff'),
+        url('../fonts/Sailec-Medium.ttf') format('truetype'),
+        url('../fonts/Sailec-Medium.svg#Sailec-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Regular.eot');
+    src: url('../fonts/Sailec-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sailec-Regular.woff2') format('woff2'),
+        url('../fonts/Sailec-Regular.woff') format('woff'),
+        url('../fonts/Sailec-Regular.ttf') format('truetype'),
+        url('../fonts/Sailec-Regular.svg#Sailec-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/****** SCSS Functions ******/
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/utility';
+
+/****** Default Styles ******/
+@import 'base/typography';
+
+/****** Global Classes ******/
+@import 'base/global';
+
+/****** layout Blocks ******/
+@import 'views/navigation';
+@import 'views/headers';
+@import 'views/sidebar';
+@import 'views/footers';
+@import 'views/cards';
+
+/****** Building Blocks ******/
+@import 'components/account';
+@import 'components/userprofile';
+@import 'components/home';
+@import 'components/deals';
+@import 'components/faq';
+@import 'components/shipbox';
+@import 'components/about';
+
+/****** Media Blocks ******/
+@import 'base/media-query-devices';
+@import 'base/disqus';

@@ -1,0 +1,141 @@
+ @media only screen and (max-width: 823px) and (orientation: landscape) {
+   /*--404 page styles--*/
+    .page-404 .page-404conent .content-holder{
+        h1{font-size:144px; letter-spacing: 5.4px; line-height: 1;}
+        p{font-size: 36px; letter-spacing:5.6px;}
+    }
+
+    .about-page{
+      .hero-banner{
+          .banner-holder {height:calc(100vh + 75px);}
+      }
+    }     
+ }
+/* -1---------- iPhone 4 and 4S ----------- */
+
+ @media only screen and (max-width: 736px) and (orientation: landscape) {
+    .mini-card{
+        .flex-wrapper{
+            > [class*='col-']{width: 50%; flex-grow: 1;}
+        }
+    }
+    .detail-contentholder{
+        display: flex;
+        .left-content{
+          width: 48%; max-width: 100%; margin:0 15px 55px 0;
+          .image-holder{margin-bottom: 0; height: 396px;}
+        }
+        .right-content{
+          width: 48%; max-width: 100%; margin:0 0 55px;
+        }
+    }
+
+    .hero-banner{
+      .banner-holder {height: calc(100vh - 60px); width:100%; margin: 0 auto;}
+      .slogan{max-width: 100%; padding: 0; text-align: center;}
+      .slogan .slogan-info{max-width: 100%; width:100%;}
+      .slogan .rectangle{
+          height: calc(100vh - 155px);
+          max-width: 100%; bottom: auto; transform: initial;
+          border-width: 25px;width:350px; top: 80px; 
+      }
+      .slogan h1{max-width: 100%;}
+      .slogan h1 span{display: inline-block;}
+    } 
+    .about-page{
+      .hero-banner{
+          .banner-holder {height:100vh;}
+      }
+    }    
+}
+@media only screen and (max-width: 599px) and (orientation: landscape) {
+    .detail-contentholder{
+        display: block;
+        .left-content{
+          width: 100%;margin:0 0 30px;
+          .image-holder{margin-bottom: 0; height: 396px;}
+        }
+        .right-content{
+          width: 100%; margin:0;
+        }
+    }
+}
+
+/* -2------- iPhone 5, 5S, 5C and 5SE ------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+      .page-404 .page-404conent .content-holder{flex-direction: row;}
+}
+
+/* -3---------- iPhone 6, 6S, 7 and 8 -------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* -4---------- iPhone 6+, 7+ and 8+ --------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* -5------------------ iPhone X ------------- */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .hero-banner .slogan{top:10px;}
+    .hero-banner .slogan .rectangle{
+      height: calc(100vh - 140px);
+    }
+}
+
+/* -6------- Galaxy S4, S5 and Note 3 --------- */
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* -7------------------ Galaxy S6 -------------- */
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+
+/* -8-------------- Windows Phone -------------- */
+
+/* Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) 
+  and (orientation: landscape) {
+
+}

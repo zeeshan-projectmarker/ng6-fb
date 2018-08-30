@@ -1,0 +1,56 @@
+{
+    "status" : 200,
+    "message": "Successfully archive loaded deals",
+    "data": [
+        {
+            "id" : 1,
+            "title": "Beoplay H7 Premium Wireless S8",
+            "price": 780.00,
+            "image": "./assets/images/card-image/card-image1.png",
+            "status": "ARCHIVED"
+        }, {
+            "id" : 2,
+            "title": "Beoplay H7 Premium Wireless S8 Beoplay H7 Premium Wireless S8",
+            "price": 180.00,
+            "image": "./assets/images/card-image/card-image2.png",
+            "status": "ARCHIVED"
+        }, {
+            "id" : 3,
+            "title": "3 - Beoplay H7 Premium Wireless S8 ",
+            "price": 20.00,
+            "image": "./assets/images/card-image/card-image3.png",
+            "status": "ARCHIVED"
+
+        }, {
+            "id" : 4,
+            "title": "4 - Beoplay H7 Premium Wireless S8",
+            "price": 450.00,
+            "image": "./assets/images/card-image/card-image4.png",
+            "status": "ARCHIVED"
+        }, {
+            "id" : 5,
+            "title": "5 - Beoplay H7 Premium Wireless S8",
+            "price": 780.00,
+            "image": "./assets/images/card-image/card-image1.png",
+            "status": "ARCHIVED"
+        }, {
+            "id" : 6,
+            "title": "6 - Beoplay H7 Premium Wireless S8",
+            "price": 780.00,
+            "image": "./assets/images/card-image/card-image2.png",
+            "status": "ARCHIVED"
+        }, {
+            "id" : 7,
+            "title": "7 - Beoplay H7 Premium Wireless S8",
+            "price": 780.00,
+            "image": "./assets/images/card-image/card-image3.png",
+            "status": "ARCHIVED"
+        }, {
+            "id" : 8,
+            "title": "8 - Beoplay H7 Premium Wireless S8",
+            "price": 780.00,
+            "image": "./assets/images/card-image/card-image1.png",
+            "status": "ARCHIVED"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69" height="45" viewBox="0 0 69 45">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#000" font-family="BebasNeueRegular, Bebas Neue" font-size="12" letter-spacing="5.12">
+            <tspan x="13" y="16">FOGGY</tspan> <tspan x="13" y="35">BEANS</tspan>
+        </text>
+        <path stroke="#000" d="M.5.5h68v22H.5zM.5 22.5h68v22H.5z"/>
+    </g>
+</svg>

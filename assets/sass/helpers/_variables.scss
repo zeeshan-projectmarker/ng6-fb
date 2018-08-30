@@ -1,0 +1,70 @@
+/****** theme color variations ******/
+$colors: (
+    primary: #000,
+    secondary: #00bcd4,
+    content: #1b1b1b,
+    grey: #e1e8ee,
+    red: #d21515,
+    success: #4ab047,
+    info: #29c1bf,
+    warning: #fcf8e3,
+    danger: #ef4b4b,
+    black: #000,
+    white:#fff,
+);
+
+$alerts: (
+    ((title success) (color darken(map-get($colors, success), 40%)) (bg-color map-get($colors, success)) (border-color darken(map-get($colors, success), 10%))),
+    ((title info) (color darken(map-get($colors, info), 40%)) (bg-color map-get($colors, info)) (border-color darken(map-get($colors, info), 10%))),
+    ((title warning) (color darken(map-get($colors, warning), 40%)) (bg-color map-get($colors, warning)) (border-color darken(map-get($colors, warning), 10%))),
+    ((title danger) (color darken(map-get($colors, danger), 40%)) (bg-color map-get($colors, danger)) (border-color darken(map-get($colors, danger), 10%)))
+);
+
+@each $alert-item in $alerts{
+    $title: nth($alert-item, 1);
+    $color: nth($alert-item, 2);
+    $bg-color: nth($alert-item, 3);
+    $border-color: nth($alert-item, 4);
+
+    .alert-#{nth($title, 2)}{background-color: nth($bg-color, 2); color: nth($color, 2); border-color: nth($border-color, 2);}
+}
+
+@each $text-color in $colors{
+    $index: index($colors, $text-color);
+
+    .text-#{nth($text-color, 1)}{color: nth($text-color, 2);}
+    .bg-#{nth($text-color, 1)}{background: nth($text-color, 2);}
+
+    .colors-holder > div:nth-child(#{$index}){background: nth($text-color, 2);}
+}
+
+$fonts: (
+    primary: ('Sailec'),
+    secondary:('Bebas Neue')
+);
+
+$default-radius: 5px;
+$content-size: 14px;
+$assetsPath: '../images';
+
+$fa-icons: (
+    angle-up: "\f106",
+    angle-right: "\f105",
+    angle-down: "\f107",
+    angle-left: "\f104",
+    angle-double-up: "\f102",
+    angle-double-right: "\f101",
+    angle-double-down: "\f103",
+    angle-double-left: "\f100",
+    facebook: "\f09a",
+    twitter: "\f099",
+    google-plus: "\f0d5",
+    phone: "\f095",
+    envelop: "\f0e0",
+    times-cirlce: "\f057",
+    calendar: "\f073"
+);
+
+@if($colors != null) {
+    .colors-length{width: #{length($colors)}px;}
+}
